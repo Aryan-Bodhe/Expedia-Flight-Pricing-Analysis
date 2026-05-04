@@ -1,13 +1,13 @@
-# ✈️ Expedia Flight Pricing Analysis
+# Expedia Flight Pricing Analysis
 
 A large-scale data science project utilizing **PySpark** and **Ensemble Learning** to decode dynamic pricing strategies in the U.S. aviation market.
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes a **31 GB dataset** (approx. 6 million observations) from Expedia to build a predictive framework for airfare. We address the limitations of traditional linear models by implementing non-linear, tree-based regressors that capture the complex, non-linear logic of the airline industry.
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 After extensive testing, the **Random Forest Regressor** emerged as the champion model, effectively capturing over 77% of price variance.
 
 | Model | Testing $R^2$ | RMSE | MAE | MAPE |
@@ -32,7 +32,7 @@ After extensive testing, the **Random Forest Regressor** emerged as the champion
 
 ---
 
-## 💡 Strategic Business Insights
+## Strategic Business Insights
 
 * **The "Procrastination Penalty":** The model identified a consistent **$31.05** average fare surge for bookings made within 7 days of departure.
 * **The Non-Stop Premium:** Hypothesis testing revealed that the "convenience tax" is not universal; it is surgically applied to only **14.4% of routes**, specifically targeting high-yield corporate corridors.
@@ -40,12 +40,3 @@ After extensive testing, the **Random Forest Regressor** emerged as the champion
 
 ---
 
-## 📂 Repository Structure
-```text
-├── data/                   # Schema definitions and data samples
-├── notebooks/              
-│   ├── 01_eda.ipynb        # Exploratory Data Analysis
-│   ├── 02_preprocessing.ipynb # EIF and Target Encoding
-│   └── 03_modeling.ipynb   # Ensemble Learning & Hyperparameter Tuning
-├── plots/                  # Visualizations of feature importance
-└── README.md               # Project documentation
