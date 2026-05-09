@@ -63,3 +63,20 @@ Non-linear models significantly outperformed traditional linear regression (OLS)
 ## References
 *   **Dataset:** Expedia Flight Prices Dataset via Kaggle.
 *   **Tools:** Python (Pandas, PySpark, Scikit-Learn, XGBoost, LightGBM, CatBoost), Flightmap Web App.
+
+---
+
+## Project Structure
+
+For the step-by-step breakdown, see the folder-level READMEs:
+
+* [01. Dataset](01.%20Dataset/README.md)
+* [02. Data Visualisation](02.%20Data%20Visualisation/README.md)
+* [02. Data Visualisation/Flightmap](02.%20Data%20Visualisation/Flightmap/README.md)
+* [03. Data Preprocessing](03.%20Data%20Preprocessing/README.md)
+* [04. EDA](04.%20EDA/README.md)
+* [05. Hypothesis Testing](05.%20Hypothesis%20Testing/README.md)
+* [06. Feature Engg. and Dim Reduction](06.%20Feature%20Engg.%20and%20Dim%20Reduction/README.md)
+* [07. OLS Model](07.%20OLS%20Model/README.md)
+* [08. Non Linear Modelling](08.%20Non%20Linear%20Modelling/README.md)
+* [09. Results and Conclusions](09.%20Results%20and%20Conclusions/README.md)
